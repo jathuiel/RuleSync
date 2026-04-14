@@ -8,32 +8,6 @@ Ela oferece dois fluxos de trabalho principais:
 - `Appearance Profiler`: exporta regras de aparência para XML.
 - `Search Sets`: converte um template de Search Sets em XML.
 
-## Requisitos
-
-- Python 3.10+ (recomendado)
-- pacotes Python:
-  - `openpyxl`
-  - `customtkinter`
-
-## Instalação
-
-1. Abra o PowerShell ou terminal no diretório do projeto.
-2. Instale as dependências:
-
-```powershell
-python -m pip install openpyxl customtkinter
-```
-
-## Execução
-
-No mesmo diretório dos arquivos, execute:
-
-```powershell
-python RuleSync_Visual.py
-```
-
-Isso abre a interface gráfica da aplicação.
-
 ## Uso
 
 ### Appearance Profiler
@@ -65,7 +39,3 @@ Os arquivos XML gerados podem ser importados no Navisworks como Appearance Profi
 
 - O diretório `Output/` está disponível para armazenar arquivos gerados.
 - Caso prefira rodar a conversão de Search Sets sem a interface gráfica, o script `excel_to_nw_search.py` contém a função `convert_excel_to_xml`.
-
-## Contato
-
-Ferramenta desenvolvida por Jathuiel Corrêa / JSC Tecnologia.
